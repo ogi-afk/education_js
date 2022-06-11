@@ -1,22 +1,17 @@
-const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?", '');
-const personalMovieDB:{
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  privat: false
-};
-
-const lastFilm = prompt ('Один из последних просмотренных фильмов',''),
-      scoreFilm = prompt('На сколько оцените фильм', ''),
-      lastFilm2 = prompt ('Один из последних просмотренных фильмов', ""),
-      scoreFilm2 = prompt('На сколько оцените фильм', '');
-
-const movies: {
-  'logan':'8.1'
+for (let i = 5; i <= 10; i++) {
+  console.log(i);
 }
 
-personalMovieDB.movies[a]=b;
-personalMovieDB.movies[c]=d;
+for (let i = 20; i >= 10; i--) {
+  if (i === 13) {
+    break;
+  }
+  console.log(i);
+}
 
-console.log(personalMovieDB)
+for (let i = 2; i <= 10; i++) {
+  if (i % 2 === 1) {
+    continue;
+  }
+  console.log(i);
+}
